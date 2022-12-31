@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  margin-top: 8px;
+  width: 100%;
+  color: white;
+  max-width: 800px;
+  left: 50%;
+  transform: translate(-50%);
+  top: 50px;
+  padding: 20px;
+}
+
+.topicText {
+  color: var(--secondary);
+  font-size: x-large;
+}
+
+.blogContainer {
+  padding: 20px;
+}
+
+.titleText {
+  font-size: 24px;
+  color: var(--lightgrey);
+}
+
+.description {
+  margin-top: 12px;
+  color: var(--lightgrey);
+  line-height: 1.6;
+}
+
+.bottomContainer {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 25px;
+}
+
+.dateCreated {
+  margin-left: 10px;
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  height: 100%;
+  transform: translate(0%, -50%);
+  color: var(--greytext);
+}
+
+.lengthOfReadInMinutes {
+  margin-left: 10px;
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  height: 100%;
+  transform: translate(0%, -50%);
+  color: var(--greytext);
+}
+
+.circle {
+  position: relative;
+  margin-left: 10px;
+  height: 4px;
+  width: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.markdownContainer {
+  height: fit-content;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

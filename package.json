@@ -1,0 +1,37 @@
+{
+  "name": "personal_site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint-fix": "npx stylelint '**/*.css' --fix && prettier --config .prettierrc 'pages/**/*.js' --write && prettier --config .prettierrc 'components/**/*.js' --write && prettier --config .prettierrc 'components/**/*.tsx' --write && prettier --config .prettierrc 'pages/**/*.tsx' --write"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.3",
+    "@supabase/supabase-js": "^2.1.1",
+    "@vercel/analytics": "^0.1.6",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "marked": "^4.2.3",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-remove-scroll": "^2.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "eslint": "^8.26.0",
+    "eslint-config-next": "13.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard": "^29.0.0",
+    "typescript": "4.9.3"
+  }
+}

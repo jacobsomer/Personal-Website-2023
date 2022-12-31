@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier",
+    "@typescript-eslint"
+  ],
+   "parser": "@typescript-eslint/parser",
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react/prop-types": 0,
+    "prettier/prettier": 2
+  }
+}

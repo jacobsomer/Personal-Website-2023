@@ -1,0 +1,49 @@
+.AboutContentComponent {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titleContainer {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: fit-content;
+  color: var(--greytext);
+}
+
+.textContainer {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--greytext);
+  padding-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.imageContainer {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: fit-content;
+  padding: 20px;
+}
+
+.letschatbutton {
+  position: relative;
+  color: black;
+  left: 50%;
+  transform: translate(-50%);
+  width: 180px;
+  background-color: #947cff;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: medium;
+  text-align: center;
+  padding: 8px 0;
+}

@@ -1,0 +1,28 @@
+.firstPeriod {
+  display: 50%;
+}
+.secondPeriod { display: 50%; }
+.thirdPeriod { display: 50%; }
+
+.imageContainer{
+  margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media only screen and (max-width: 762px) {
+  .imageContainer {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+.image {
+  padding: 20px;
+}
+
+.titleText{
+  color:white;
+  padding-left: 20px;
+}
+
+
